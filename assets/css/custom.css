@@ -1,0 +1,48 @@
+/* Custom styles for the service showcase website */
+
+/* Hero Section */
+.hero {
+    background: url('assets/img/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+.form-label {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
